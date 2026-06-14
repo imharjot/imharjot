@@ -1,6 +1,6 @@
 ## Harjot Singh
 
-Full-stack engineer, backend at heart. I build commerce systems that stay correct and fast when a lot of people hit them at the same moment.
+Full-stack engineer, backend at heart. I build systems that stay correct and fast when a lot of people hit them at the same moment.
 
 For the last few years I've worked on a B2B diamond-trading platform — real-time bidding and timed drops, inventory and order pipelines, and the concurrency control that keeps a one-of-a-kind item from being sold twice. Most of that work is private, so the projects below are where I show how I think about these problems.
 
