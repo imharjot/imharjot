@@ -23,7 +23,5 @@ Currently going deeper on Go and distributed-systems fundamentals, with the occa
 ## Contact
 
 - Email — harjotsrance@gmail.com
-<!-- Add these if you want them public:
-- LinkedIn — https://www.linkedin.com/in/YOUR_HANDLE
-- Website — https://YOUR-SITE.com
--->
+- LinkedIn — https://www.linkedin.com/imharjot
+- Website — https://harjotsingh.dev
