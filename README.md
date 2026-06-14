@@ -18,6 +18,8 @@ Also — Java/Spring Boot, Medusa, Docker
 
 Currently going deeper on Go and distributed-systems fundamentals, with the occasional open-source contribution.
 
+---
+
 ## Contact
 
 - Email — harjotsrance@gmail.com
