@@ -1,0 +1,39 @@
+name: Update OSS contributions
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - contributions.json
+      - scripts/**
+      - .github/workflows/update-contributions.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-contributions
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'imharjot/imharjot'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Test contribution transitions and README preservation
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
+      - name: Refresh contribution lists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_contributions.py --publish

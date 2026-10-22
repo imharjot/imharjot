@@ -16,6 +16,8 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 
 ### Merged contributions
 
+<!-- OSS:MERGED:START -->
+
 - **Astro** — [preserve empty request cookie values](https://github.com/withastro/astro/pull/18226).
 - **Fastify** — [multipart `onFile` types](https://github.com/fastify/fastify-multipart/pull/624), [PostgreSQL client constructor types](https://github.com/fastify/fastify-postgres/pull/219), and [prevent caching non-success responses](https://github.com/fastify/fastify-caching/pull/192).
 - **Medusa** — [invalidate list caches when entities change](https://github.com/medusajs/medusa/pull/15747).
@@ -24,6 +26,8 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 - **MCO** — improve Ollama model probing ([#128](https://github.com/mco-org/mco/pull/128), [#129](https://github.com/mco-org/mco/pull/129)).
 - **K9s** — [clarify field-selector constraints for resource jumps](https://github.com/derailed/k9s/pull/4062).
 
+<!-- OSS:MERGED:END -->
+
 ### Incorporated upstream
 
 My [Instructor batch-validation fix](https://github.com/567-labs/instructor/pull/2743) was incorporated through [#2767](https://github.com/567-labs/instructor/pull/2767), with credit in the changelog. The original PR was closed without merging, so it is separate from the merged list above.
@@ -31,6 +35,8 @@ My [Instructor batch-validation fix](https://github.com/567-labs/instructor/pull
 ### Pending contributions
 
 These PRs are still open. Some are awaiting review or approval for CI to run.
+
+<!-- OSS:PENDING:START -->
 
 <details>
 <summary>View the open pull requests</summary>
@@ -53,7 +59,13 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 </details>
 
+<!-- OSS:PENDING:END -->
+
+<!-- OSS:COUNTS:START -->
+
 *PR statuses checked on October 22, 2026: 10 merged OSS PRs and 13 open. Personal project PRs are excluded.*
+
+<!-- OSS:COUNTS:END -->
 
 ## Tools I reach for
 
