@@ -18,13 +18,16 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 
 <!-- OSS:MERGED:START -->
 
-- **Astro** — [preserve empty request cookie values](https://github.com/withastro/astro/pull/18226).
-- **Fastify** — [multipart `onFile` types](https://github.com/fastify/fastify-multipart/pull/624), [PostgreSQL client constructor types](https://github.com/fastify/fastify-postgres/pull/219), and [prevent caching non-success responses](https://github.com/fastify/fastify-caching/pull/192).
-- **Medusa** — [invalidate list caches when entities change](https://github.com/medusajs/medusa/pull/15747).
-- **GPT Researcher** — [preserve loaded MCP settings](https://github.com/assafelovic/gpt-researcher/pull/2193).
-- **Inquirer** — [prevent submissions while a search prompt is loading](https://github.com/SBoudrias/Inquirer.js/pull/2291).
-- **MCO** — improve Ollama model probing ([#128](https://github.com/mco-org/mco/pull/128), [#129](https://github.com/mco-org/mco/pull/129)).
-- **K9s** — [clarify field-selector constraints for resource jumps](https://github.com/derailed/k9s/pull/4062).
+- **Fastify multipart** — [Multipart onFile types](https://github.com/fastify/fastify-multipart/pull/624).
+- **GPT Researcher** — [Preserve loaded MCP settings](https://github.com/assafelovic/gpt-researcher/pull/2193).
+- **MCO** — [Treat Ollama model names as positional probe arguments](https://github.com/mco-org/mco/pull/129).
+- **Astro** — [Preserve empty request cookie values](https://github.com/withastro/astro/pull/18226).
+- **Inquirer** — [Prevent submissions while a search prompt is loading](https://github.com/SBoudrias/Inquirer.js/pull/2291).
+- **MCO** — [Probe the requested Ollama model directly](https://github.com/mco-org/mco/pull/128).
+- **Fastify caching** — [Prevent caching non-success responses](https://github.com/fastify/fastify-caching/pull/192).
+- **Fastify Postgres** — [PostgreSQL client constructor types](https://github.com/fastify/fastify-postgres/pull/219).
+- **Medusa** — [Invalidate list caches when entities change](https://github.com/medusajs/medusa/pull/15747).
+- **K9s** — [Clarify field-selector constraints for resource jumps](https://github.com/derailed/k9s/pull/4062).
 
 <!-- OSS:MERGED:END -->
 
@@ -44,18 +47,18 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | Project | Contribution |
 | --- | --- |
 | Axios | [Preserve nested Buffer paths in URL-encoded forms](https://github.com/axios/axios/pull/11290) |
-| Crush | [Preserve UTF-8 when truncating fetched content](https://github.com/charmbracelet/crush/pull/4025) |
-| LangChain.js | [Handle Anthropic web-fetch results in streaming and serialization](https://github.com/langchain-ai/langchainjs/pull/11064) |
-| LangChain.js | [Keep scalar OpenAI response metadata consistent across chunks](https://github.com/langchain-ai/langchainjs/pull/11084) |
-| LlamaIndex | [Handle empty keyword-table node IDs](https://github.com/run-llama/llama_index/pull/23360) |
 | Chainlit | [Apply negative-feedback filters in SQLAlchemy](https://github.com/Chainlit/chainlit/pull/3069) |
-| Hono | [Discard stale form content length during method override](https://github.com/honojs/hono/pull/5521) |
-| Pino | [Declare optional `lastId` on multistream results](https://github.com/pinojs/pino/pull/2454) |
-| Pino serializers | [Serialize both branches of `SuppressedError`](https://github.com/pinojs/pino-std-serializers/pull/207) |
+| Crush | [Preserve UTF-8 when truncating fetched content](https://github.com/charmbracelet/crush/pull/4025) |
 | Drizzle | [Preserve stack traces for unknown CLI errors](https://github.com/drizzle-team/drizzle-orm/pull/5910) |
-| textgen | [Fix prefix collisions in bare tool-call names](https://github.com/oobabooga/textgen/pull/7667) |
-| Medusa | [Add Haitian gourde to default and admin currency data](https://github.com/medusajs/medusa/pull/17133) |
 | get-value | [Point package types to the built declarations](https://github.com/jonschlinkert/get-value/pull/38) |
+| Hono | [Discard stale form content length during method override](https://github.com/honojs/hono/pull/5521) |
+| LangChain.js | [Keep scalar OpenAI response metadata consistent across chunks](https://github.com/langchain-ai/langchainjs/pull/11084) |
+| LangChain.js | [Handle Anthropic web-fetch results in streaming and serialization](https://github.com/langchain-ai/langchainjs/pull/11064) |
+| LlamaIndex | [Handle empty keyword-table node IDs](https://github.com/run-llama/llama_index/pull/23360) |
+| Medusa | [Add Haitian gourde to default and admin currency data](https://github.com/medusajs/medusa/pull/17133) |
+| Pino | [Declare optional lastId on multistream results](https://github.com/pinojs/pino/pull/2454) |
+| Pino serializers | [Serialize both branches of SuppressedError](https://github.com/pinojs/pino-std-serializers/pull/207) |
+| textgen | [Fix prefix collisions in bare tool-call names](https://github.com/oobabooga/textgen/pull/7667) |
 
 </details>
 
@@ -63,7 +66,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*PR statuses checked on October 22, 2026: 10 merged OSS PRs and 13 open. Personal project PRs are excluded.*
+*10 merged OSS PRs · 13 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
