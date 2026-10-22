@@ -2,10 +2,11 @@
 
 Full-stack engineer, backend at heart. I build systems that stay correct and fast when a lot of people hit them at the same moment.
 
-Over the past few years, I’ve worked on backend and distributed systems—rewriting services, rethinking architectures, improving data pipelines, and making deployments more reliable. Most of that work is private, so the projects below show how I approach performance, concurrency, and system design in practice.
+Over the past few years, I’ve worked on backend and distributed systems—rewriting services, rethinking architectures, improving data pipelines, and making deployments more reliable. Most of that work is private, so the projects below show how I approach performance, concurrency, operations, and system design in practice.
 
 ## Selected work
 
+- **[deployment-console](https://github.com/imharjot/deployment-console)** — a self-hosted console for teams on Amazon ECS. It reads environments, services, databases, and the connections between them straight from AWS, then adds logs, metrics, CI, guarded deploys and rollbacks, roles, an audit log, and an approval-gated API for AI agents. Next.js and TypeScript, 1,500+ tests, and a simulated AWS account so you can try it without one.
 - **[lockd](https://github.com/imharjot/lockd)** — a reservation engine for unique inventory, written in Go. TTL leases, fencing tokens, fair per-key queueing, WAL recovery, and a linearizability-checked core.
 - **[oversell](https://github.com/imharjot/oversell)** — a correctness fuzzer that races concurrent requests at a checkout and tells you, deterministically, whether it oversells — then hands back a replayable repro.
 - **[DropHouse](https://github.com/imharjot/drophouse)** — a real-time timed-drop auction: a no-oversell bid core, a server-authoritative anti-snipe clock, and an append-only ledger you can replay.
@@ -72,9 +73,10 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 ## Tools I reach for
 
-Backend — Go, Node.js, Fastify, TypeScript, PostgreSQL, Redis
-Frontend — React, Next.js, TypeScript
-Also — Java/Spring Boot, Medusa, Docker
+- **Backend** — Go, Node.js, Fastify, TypeScript, PostgreSQL, Redis
+- **Frontend** — React, Next.js, TypeScript
+- **Cloud and ops** — AWS (ECS, RDS, CloudWatch), Docker, GitHub Actions
+- **Also** — Java/Spring Boot, Medusa
 
 Currently going deeper on Go and distributed-systems fundamentals.
 
@@ -83,5 +85,5 @@ Currently going deeper on Go and distributed-systems fundamentals.
 ## Contact
 
 - Email — harjotsrance@gmail.com
-- LinkedIn — https://www.linkedin.com/imharjot
+- LinkedIn — https://www.linkedin.com/in/imharjot
 - Website — https://harjotsingh.dev
