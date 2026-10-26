@@ -19,6 +19,7 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 
 <!-- OSS:MERGED:START -->
 
+- **mikefarah/yq** — [fix\(yaml\): preserve line numbers after header preprocessing](https://github.com/mikefarah/yq/pull/2939).
 - **Fastify multipart** — [Multipart onFile types](https://github.com/fastify/fastify-multipart/pull/624).
 - **GPT Researcher** — [Preserve loaded MCP settings](https://github.com/assafelovic/gpt-researcher/pull/2193).
 - **MCO** — [Treat Ollama model names as positional probe arguments](https://github.com/mco-org/mco/pull/129).
@@ -57,7 +58,6 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | LangChain.js | [Keep scalar OpenAI response metadata consistent across chunks](https://github.com/langchain-ai/langchainjs/pull/11084) |
 | LangChain.js | [Handle Anthropic web-fetch results in streaming and serialization](https://github.com/langchain-ai/langchainjs/pull/11064) |
 | LlamaIndex | [Handle empty keyword-table node IDs](https://github.com/run-llama/llama_index/pull/23360) |
-| mikefarah/yq | [fix\(yaml\): preserve line numbers after header preprocessing](https://github.com/mikefarah/yq/pull/2939) |
 | Pino | [Declare optional lastId on multistream results](https://github.com/pinojs/pino/pull/2454) |
 | Pino serializers | [Serialize both branches of SuppressedError](https://github.com/pinojs/pino-std-serializers/pull/207) |
 | textgen | [Fix prefix collisions in bare tool-call names](https://github.com/oobabooga/textgen/pull/7667) |
@@ -68,7 +68,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*10 merged OSS PRs · 14 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*11 merged OSS PRs · 13 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
