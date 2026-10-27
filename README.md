@@ -19,6 +19,7 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 
 <!-- OSS:MERGED:START -->
 
+- **bombshell-dev/clack** — [fix\(prompts\): render falsy options in limitOptions](https://github.com/bombshell-dev/clack/pull/628).
 - **mikefarah/yq** — [fix\(yaml\): preserve line numbers after header preprocessing](https://github.com/mikefarah/yq/pull/2939).
 - **Fastify multipart** — [Multipart onFile types](https://github.com/fastify/fastify-multipart/pull/624).
 - **GPT Researcher** — [Preserve loaded MCP settings](https://github.com/assafelovic/gpt-researcher/pull/2193).
@@ -49,7 +50,6 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | Project | Contribution |
 | --- | --- |
 | Axios | [Preserve nested Buffer paths in URL-encoded forms](https://github.com/axios/axios/pull/11290) |
-| bombshell-dev/clack | [fix\(prompts\): render falsy options in limitOptions](https://github.com/bombshell-dev/clack/pull/628) |
 | Chainlit | [Apply negative-feedback filters in SQLAlchemy](https://github.com/Chainlit/chainlit/pull/3069) |
 | Crush | [Preserve UTF-8 when truncating fetched content](https://github.com/charmbracelet/crush/pull/4025) |
 | Drizzle | [Preserve stack traces for unknown CLI errors](https://github.com/drizzle-team/drizzle-orm/pull/5910) |
@@ -68,7 +68,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*11 merged OSS PRs · 13 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*12 merged OSS PRs · 12 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
