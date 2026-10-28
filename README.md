@@ -50,7 +50,9 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | Project | Contribution |
 | --- | --- |
 | Axios | [Preserve nested Buffer paths in URL-encoded forms](https://github.com/axios/axios/pull/11290) |
+| bombshell-dev/clack | [fix: respect the prompt output stream width](https://github.com/bombshell-dev/clack/pull/630) |
 | Chainlit | [Apply negative-feedback filters in SQLAlchemy](https://github.com/Chainlit/chainlit/pull/3069) |
+| charmbracelet/bubbletea | [fix: preserve exact-width lines printed above the view](https://github.com/charmbracelet/bubbletea/pull/1888) |
 | Crush | [Preserve UTF-8 when truncating fetched content](https://github.com/charmbracelet/crush/pull/4025) |
 | Drizzle | [Preserve stack traces for unknown CLI errors](https://github.com/drizzle-team/drizzle-orm/pull/5910) |
 | get-value | [Point package types to the built declarations](https://github.com/jonschlinkert/get-value/pull/38) |
@@ -68,7 +70,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*12 merged OSS PRs · 12 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*12 merged OSS PRs · 14 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
