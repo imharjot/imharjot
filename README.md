@@ -19,6 +19,7 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 
 <!-- OSS:MERGED:START -->
 
+- **bombshell-dev/clack** — [fix: respect the prompt output stream width](https://github.com/bombshell-dev/clack/pull/630).
 - **bombshell-dev/clack** — [fix\(prompts\): render falsy options in limitOptions](https://github.com/bombshell-dev/clack/pull/628).
 - **mikefarah/yq** — [fix\(yaml\): preserve line numbers after header preprocessing](https://github.com/mikefarah/yq/pull/2939).
 - **Fastify multipart** — [Multipart onFile types](https://github.com/fastify/fastify-multipart/pull/624).
@@ -50,7 +51,6 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | Project | Contribution |
 | --- | --- |
 | Axios | [Preserve nested Buffer paths in URL-encoded forms](https://github.com/axios/axios/pull/11290) |
-| bombshell-dev/clack | [fix: respect the prompt output stream width](https://github.com/bombshell-dev/clack/pull/630) |
 | Chainlit | [Apply negative-feedback filters in SQLAlchemy](https://github.com/Chainlit/chainlit/pull/3069) |
 | charmbracelet/bubbletea | [fix: preserve exact-width lines printed above the view](https://github.com/charmbracelet/bubbletea/pull/1888) |
 | Crush | [Preserve UTF-8 when truncating fetched content](https://github.com/charmbracelet/crush/pull/4025) |
@@ -70,7 +70,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*12 merged OSS PRs · 14 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*13 merged OSS PRs · 13 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
