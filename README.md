@@ -51,6 +51,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | Project | Contribution |
 | --- | --- |
 | Axios | [Preserve nested Buffer paths in URL-encoded forms](https://github.com/axios/axios/pull/11290) |
+| BerriAI/litellm | [fix\(langfuse\_otel\): include default tags in OTel v2](https://github.com/BerriAI/litellm/pull/49858) |
 | Chainlit | [Apply negative-feedback filters in SQLAlchemy](https://github.com/Chainlit/chainlit/pull/3069) |
 | charmbracelet/bubbletea | [fix: preserve exact-width lines printed above the view](https://github.com/charmbracelet/bubbletea/pull/1888) |
 | Crush | [Preserve UTF-8 when truncating fetched content](https://github.com/charmbracelet/crush/pull/4025) |
@@ -60,6 +61,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | LangChain.js | [Keep scalar OpenAI response metadata consistent across chunks](https://github.com/langchain-ai/langchainjs/pull/11084) |
 | LangChain.js | [Handle Anthropic web-fetch results in streaming and serialization](https://github.com/langchain-ai/langchainjs/pull/11064) |
 | LlamaIndex | [Handle empty keyword-table node IDs](https://github.com/run-llama/llama_index/pull/23360) |
+| pingdotgg/t3code | [fix\(server\): read continued core.bare values during onboarding](https://github.com/pingdotgg/t3code/pull/30174) |
 | Pino | [Declare optional lastId on multistream results](https://github.com/pinojs/pino/pull/2454) |
 | Pino serializers | [Serialize both branches of SuppressedError](https://github.com/pinojs/pino-std-serializers/pull/207) |
 | textgen | [Fix prefix collisions in bare tool-call names](https://github.com/oobabooga/textgen/pull/7667) |
@@ -70,7 +72,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*13 merged OSS PRs · 13 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*13 merged OSS PRs · 15 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
