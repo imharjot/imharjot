@@ -19,6 +19,7 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 
 <!-- OSS:MERGED:START -->
 
+- **pingdotgg/t3code** — [fix\(server\): read continued core.bare values during onboarding](https://github.com/pingdotgg/t3code/pull/30174).
 - **bombshell-dev/clack** — [fix: respect the prompt output stream width](https://github.com/bombshell-dev/clack/pull/630).
 - **bombshell-dev/clack** — [fix\(prompts\): render falsy options in limitOptions](https://github.com/bombshell-dev/clack/pull/628).
 - **mikefarah/yq** — [fix\(yaml\): preserve line numbers after header preprocessing](https://github.com/mikefarah/yq/pull/2939).
@@ -61,7 +62,6 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | LangChain.js | [Keep scalar OpenAI response metadata consistent across chunks](https://github.com/langchain-ai/langchainjs/pull/11084) |
 | LangChain.js | [Handle Anthropic web-fetch results in streaming and serialization](https://github.com/langchain-ai/langchainjs/pull/11064) |
 | LlamaIndex | [Handle empty keyword-table node IDs](https://github.com/run-llama/llama_index/pull/23360) |
-| pingdotgg/t3code | [fix\(server\): read continued core.bare values during onboarding](https://github.com/pingdotgg/t3code/pull/30174) |
 | Pino | [Declare optional lastId on multistream results](https://github.com/pinojs/pino/pull/2454) |
 | Pino serializers | [Serialize both branches of SuppressedError](https://github.com/pinojs/pino-std-serializers/pull/207) |
 | textgen | [Fix prefix collisions in bare tool-call names](https://github.com/oobabooga/textgen/pull/7667) |
@@ -72,7 +72,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*13 merged OSS PRs · 15 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*14 merged OSS PRs · 14 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
