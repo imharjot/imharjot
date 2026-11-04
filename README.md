@@ -62,6 +62,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | LangChain.js | [Keep scalar OpenAI response metadata consistent across chunks](https://github.com/langchain-ai/langchainjs/pull/11084) |
 | LangChain.js | [Handle Anthropic web-fetch results in streaming and serialization](https://github.com/langchain-ai/langchainjs/pull/11064) |
 | LlamaIndex | [Handle empty keyword-table node IDs](https://github.com/run-llama/llama_index/pull/23360) |
+| pingdotgg/t3code | [fix\(shared\): ignore unfinished quoted Git config continuations](https://github.com/pingdotgg/t3code/pull/30743) |
 | Pino | [Declare optional lastId on multistream results](https://github.com/pinojs/pino/pull/2454) |
 | Pino serializers | [Serialize both branches of SuppressedError](https://github.com/pinojs/pino-std-serializers/pull/207) |
 | textgen | [Fix prefix collisions in bare tool-call names](https://github.com/oobabooga/textgen/pull/7667) |
@@ -72,7 +73,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*14 merged OSS PRs · 14 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*14 merged OSS PRs · 15 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
