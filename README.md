@@ -19,6 +19,7 @@ My recent contributions focus on correctness fixes in backend libraries and AI t
 
 <!-- OSS:MERGED:START -->
 
+- **charmbracelet/bubbletea** — [fix: preserve exact-width lines printed above the view](https://github.com/charmbracelet/bubbletea/pull/1888).
 - **pingdotgg/t3code** — [fix\(shared\): ignore unfinished quoted Git config continuations](https://github.com/pingdotgg/t3code/pull/30743).
 - **pingdotgg/t3code** — [fix\(server\): read continued core.bare values during onboarding](https://github.com/pingdotgg/t3code/pull/30174).
 - **bombshell-dev/clack** — [fix: respect the prompt output stream width](https://github.com/bombshell-dev/clack/pull/630).
@@ -55,7 +56,6 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 | Axios | [Preserve nested Buffer paths in URL-encoded forms](https://github.com/axios/axios/pull/11290) |
 | BerriAI/litellm | [fix\(langfuse\_otel\): include default tags in OTel v2](https://github.com/BerriAI/litellm/pull/49858) |
 | Chainlit | [Apply negative-feedback filters in SQLAlchemy](https://github.com/Chainlit/chainlit/pull/3069) |
-| charmbracelet/bubbletea | [fix: preserve exact-width lines printed above the view](https://github.com/charmbracelet/bubbletea/pull/1888) |
 | Crush | [Preserve UTF-8 when truncating fetched content](https://github.com/charmbracelet/crush/pull/4025) |
 | Drizzle | [Preserve stack traces for unknown CLI errors](https://github.com/drizzle-team/drizzle-orm/pull/5910) |
 | get-value | [Point package types to the built declarations](https://github.com/jonschlinkert/get-value/pull/38) |
@@ -73,7 +73,7 @@ These PRs are still open. Some are awaiting review or approval for CI to run.
 
 <!-- OSS:COUNTS:START -->
 
-*15 merged OSS PRs · 14 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
+*16 merged OSS PRs · 13 open. Lists refresh hourly from GitHub; personal project PRs are excluded.*
 
 <!-- OSS:COUNTS:END -->
 
